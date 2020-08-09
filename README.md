@@ -55,7 +55,7 @@ Other features that are significantly highly correlated with SalePrice are Total
 To confirm these correlation, let's look at the scatter plot for these features.
 
 <p align="center">
-  <img title='Correlations' src='https://github.com/anxrxdh/eda-ames-housing/blob/master/plots/plot3.jpg'>
+  <img title='Correlations' src='https://github.com/anxrxdh/eda-ames-housing/blob/master/plots/plot3.JPG'>
 </p>
 
 All these features show a positive correlation with SalePrice
@@ -65,7 +65,7 @@ In order to get the magnitude of correlation, we'll first use the `.corr()` func
 Here's a screenshot of the same
 
 <p align="center">
-  <img title='Correlation Values of each feature' src='https://github.com/anxrxdh/eda-ames-housing/blob/master/plots/plot4.jpg'>
+  <img title='Correlation Values of each feature' src='https://github.com/anxrxdh/eda-ames-housing/blob/master/plots/plot4.JPG'>
 </p>
 
 As we can see this sits exactly with our correlation heatmap with Overall quality and Ground Living Area being the top highly correlated features.
@@ -75,7 +75,7 @@ As we can see this sits exactly with our correlation heatmap with Overall qualit
 For outlier detection we'll plot correlation plot again of all variables wrt SalePrice. To begin this process we need to make sure that we're are using only those variables that are numeric in nature. The plot looks as follows:
 
 <p align="center">
-  <img title='Correlation Plots of all features' src='https://github.com/anxrxdh/eda-ames-housing/blob/master/plots/plot5.jpg'>
+  <img title='Correlation Plots of all features' src='https://github.com/anxrxdh/eda-ames-housing/blob/master/plots/plot5.png'>
 </p>
 
 From these plots we can clearly see that there are significant outliers in GrLivArea. We'll plot this individually to get a closer look at the data and determine our cutoff for outliers.
